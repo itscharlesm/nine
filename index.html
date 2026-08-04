@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Our 1st National Girlfriend's Day</title>
+    <title>Nine</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Quicksand:wght@400;500;600&display=swap"
@@ -15,8 +15,62 @@
 <body>
 
     <!-- Developed by GrabCharles -->
-    <audio id="bgMusic" src="css/audios/bg_music.mp3" loop></audio>
 
+    <div class="app">
+
+        <!-- Screen 1: Start -->
+        <section id="startScreen" class="screen active">
+            <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+            <div class="start-content">
+                <span class="big-nine">9</span>
+                <h1>Happy 9th Monthsary</h1>
+                <p class="subtitle">nine months, nine little reasons, one big surprise&nbsp;💕</p>
+                <button id="startBtn" class="btn-main">Tap to Begin</button>
+            </div>
+        </section>
+
+        <!-- Screen 2: Star scene -->
+        <section id="starScene" class="screen">
+            <div class="sky" id="sky"></div>
+
+            <div class="progress-bar">
+                <span id="progressText">0 / 9 stars found</span>
+            </div>
+
+            <button id="toLetterBtn" class="btn-main hidden">Open Your Letter 💌</button>
+        </section>
+
+        <!-- Modal for star message -->
+        <div id="starModal" class="modal hidden">
+            <div class="modal-card">
+                <span class="modal-number" id="modalNumber">1</span>
+                <p id="modalText" class="modal-text"></p>
+                <button id="modalClose" class="btn-small">aww, close</button>
+            </div>
+        </div>
+
+        <!-- Screen 3: Letter -->
+        <section id="letterScene" class="screen">
+            <div class="envelope-wrap" id="envelopeWrap">
+                <div class="envelope" id="envelope">
+                    <div class="flap"></div>
+                    <div class="pocket"></div>
+                    <div class="seal">9</div>
+                </div>
+                <p class="tap-hint" id="tapHint">tap the envelope</p>
+            </div>
+
+            <div id="letterPaper" class="letter-paper hidden">
+                <p class="letter-greeting">My Love,</p>
+                <div id="letterBody" class="letter-body"></div>
+                <p class="letter-signoff">Forever counting the months with you,<br>[Your Name] 🤍</p>
+                <button id="replayBtn" class="btn-small replay">play again</button>
+            </div>
+        </section>
+
+    </div>
+
+    <audio id="bgMusic" src="css/audios/bg_music.mp3" loop></audio>
     <script src="js/index.js"></script>
 </body>
 
