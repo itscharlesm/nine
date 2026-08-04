@@ -180,8 +180,8 @@ body {
 
 .star-btn {
     position: absolute;
-    width: 46px;
-    height: 46px;
+    width: 28px;
+    height: 28px;
     border: none;
     background: none;
     cursor: pointer;
@@ -192,24 +192,24 @@ body {
 }
 
 .star-btn .glyph {
-    font-size: 1.1rem;
+    font-size: .45rem;
     color: #fdf6e8;
     opacity: .55;
-    filter: drop-shadow(0 0 3px rgba(255, 245, 220, .5));
+    filter: drop-shadow(0 0 2px rgba(255, 245, 220, .5));
     transition: transform .25s ease, opacity .25s ease, color .25s ease, filter .25s ease;
 }
 
 .star-btn:hover .glyph {
-    transform: scale(1.4) rotate(10deg);
+    transform: scale(2.2) rotate(10deg);
     opacity: .95;
 }
 
 .star-btn.found .glyph {
     color: var(--pink-soft);
     opacity: 1;
-    filter: drop-shadow(0 0 10px rgba(255, 194, 217, .9));
+    filter: drop-shadow(0 0 6px rgba(255, 194, 217, .9));
     animation: none;
-    transform: scale(1.5);
+    transform: scale(2.6);
 }
 
 @keyframes twinkle {
