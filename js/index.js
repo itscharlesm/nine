@@ -125,10 +125,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /* ---------- envelope + letter ---------- */
     const letterParagraphs = [
-        "Nine months ago I didn't know a few weeks could turn into forever, but somehow here we are.",
-        "Every star you just found is real — a small piece of why I fell for you and why I keep falling, month after month.",
-        "You make the ordinary days feel worth remembering, and the hard days feel a little lighter just because you're in them with me.",
-        "So here's to nine months, and to every month after this one. I love you, today and always.",
+        "Happy 9th Monthsary my pretty baby Iah! Just know that those nine stars you’ve found are only a few of the thousands of reasons why I fall more deeply in love with you every day.",
+        "Just like the night sky filled with stars, you shine brighter and you bring light to my world.",
+        "You're my 'Yellow' because you're my source of comfort, brightness, and unconditional love.",
+        "I will not make this longer because I know the way I express is really cheesy. I love you, today and always.",
     ];
 
     envelope.addEventListener('click', () => {
