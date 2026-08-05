@@ -1,19 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     /* ---------------------------------------------
-       EDIT ME: your 9 little reasons / memories
-       (one per star, keep them short & sweet)
+       EDIT ME: your 9 little reasons
     --------------------------------------------- */
     const reasons = [
-        "Reason #1: the way you laugh at your own jokes before you even finish them.",
-        "Reason #2: nine months in and you still text me good morning first.",
-        "Reason #3: you remember the small things I mention once, weeks later.",
-        "Reason #4: our late night calls that turn into 2am conversations about nothing and everything.",
-        "Reason #5: you make ordinary days feel like they matter.",
-        "Reason #6: the way you say my name when you're annoyed at me... it's still cute somehow.",
-        "Reason #7: you believe in me even on days I don't believe in myself.",
-        "Reason #8: every plan, every random idea — you're always down for it.",
-        "Reason #9: nine months down, and I still choose you. Every single time.",
+        "You're getting prettier day by day.",
+        "Your goofy personality even if we're far away.",
+        "You always remember the small things I mention.",
+        "You trust me completely.",
+        "You make ordinary days feel like they matter.",
+        "The way you ask for kisses even in video calls... it's really cute.",
+        "You motivate me effortlessly on the days I feel down.",
+        "Every plan, every random idea, you're always down for it.",
+        "Making me feel like I’m an important person — that I matter",
     ];
 
     /* Fixed-ish star positions so they don't overlap (percent of screen) */
