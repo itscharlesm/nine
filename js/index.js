@@ -140,6 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             letterBody.innerHTML = letterParagraphs.map(p => `<p>${p}</p>`).join('');
             letterPaper.classList.remove('hidden');
+            document.getElementById('envelopeWrap').classList.add('hidden'); // add this line
         }, 550);
     });
 
